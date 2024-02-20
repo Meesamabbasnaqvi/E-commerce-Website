@@ -61,7 +61,7 @@ function App() {
     <div>
       <header className="d-flex">
         <div className="d-flex mobile">
-          <img onClick={openNav} className={navbar ? "d-none" : "d-flex"} src="images/icon-menu.svg" alt="" />
+          <img onClick={openNav} className={navbar ? "d-none" : "d-flex"} src="https://github.com/Meesamabbasnaqvi/E-commerce-Website/blob/main/public/images/icon-menu.svg" alt="" />
           <h1 onClick={closeNav} className={navbar ? "close" : "d-none "}>X</h1>
         </div>
         <div className="d-flex desktop">
