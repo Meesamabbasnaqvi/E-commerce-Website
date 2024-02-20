@@ -90,14 +90,14 @@ function App() {
               </div>
               <div className={addCart ? " cart-img-detail" : "d-none"}>
                 <div className="d-flex">
-                  <img className="image-cart" src="/images/image-product-1.jpg" alt="" />
+                  <img className="image-cart" src="images/image-product-1.jpg" alt="" />
                   <div>
                     <h4>
                       Full Limited Edition Sneakers
                     </h4>
                     <p >$125.00  x  {count} <span id="val"></span> </p>
                   </div>
-                  <img onClick={checkOut} className="delete-btn" src="/images/icon-delete.svg" alt="" />
+                  <img onClick={checkOut} className="delete-btn" src="images/icon-delete.svg" alt="" />
                 </div>
                 <button onClick={checkOut} className="checkout">Checkout</button>
               </div>
@@ -112,16 +112,16 @@ function App() {
           </div>
           <div className="d-flex all-thumb-img">
             <div className="img-thumbnail-border">
-              <img className="thumbnail-img" src="/images/image-product-1.jpg" alt="" />
+              <img className="thumbnail-img" src="images/image-product-1.jpg" alt="" />
             </div>
             <div className="img-thumbnail-border">
-              <img className="thumbnail-img" src="/images/image-product-2.jpg" alt="" />
+              <img className="thumbnail-img" src="images/image-product-2.jpg" alt="" />
             </div>
             <div className="img-thumbnail-border">
-              <img className="thumbnail-img" src="/images/image-product-3.jpg" alt="" />
+              <img className="thumbnail-img" src="images/image-product-3.jpg" alt="" />
             </div>
             <div className="img-thumbnail-border">
-              <img className="thumbnail-img" src="/images/image-product-4.jpg" alt="" />
+              <img className="thumbnail-img" src="images/image-product-4.jpg" alt="" />
             </div>
           </div>
         </div>
